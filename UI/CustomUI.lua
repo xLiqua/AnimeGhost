@@ -205,7 +205,7 @@ return function()
             Font = Enum.Font.GothamBold,
             TextSize = 18,
             TextXAlignment = Enum.TextXAlignment.Left,
-            Text = opts.Name or "Custom Window",
+            Text = opts.Name or "Luxwave",
         })
         bindTheme(function(th)
             title.TextColor3 = th.Text
