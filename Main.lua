@@ -1816,16 +1816,16 @@ State.helpers = {
 
 Window:SetTheme(State.uiTheme)
 
-import("Peanut/Tabs/automation.lua")(Window, State)
-import("Peanut/Tabs/bossRush.lua")(Window, State)
-import("Peanut/Tabs/autoDungeon.lua")(Window, State)
-import("Peanut/Tabs/autoMapDungeon.lua")(Window, State)
-import("Peanut/Tabs/autoraid.lua")(Window, State)
-import("Peanut/Tabs/autoInfCastle.lua")(Window, State)
-import("Peanut/Tabs/misc.lua")(Window, State)
-import("Peanut/Tabs/webhook.lua")(Window, State)
-import("Peanut/Tabs/shop.lua")(Window, State)
-import("Peanut/Tabs/settings.lua")(Window, State)
+import("Tabs/automation.lua")(Window, State)
+import("Tabs/bossRush.lua")(Window, State)
+import("Tabs/autoDungeon.lua")(Window, State)
+import("Tabs/autoMapDungeon.lua")(Window, State)
+import("Tabs/autoraid.lua")(Window, State)
+import("Tabs/autoInfCastle.lua")(Window, State)
+import("Tabs/misc.lua")(Window, State)
+import("Tabs/webhook.lua")(Window, State)
+import("Tabs/shop.lua")(Window, State)
+import("Tabs/settings.lua")(Window, State)
 
 State.helpers.syncConfigUiFromState = function()
     for _, fn in ipairs(State.configUiSync) do
