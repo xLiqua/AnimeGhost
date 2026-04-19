@@ -1,9 +1,11 @@
+local BASE = "https://raw.githubusercontent.com/xLiqua/Anime-Ghosts/main/"
+
 local function import(path)
-    return loadfile(path)()
+    return loadstring(game:HttpGet(BASE .. path))()
 end
 
-local CustomUI = import("Peanut/UI/CustomUI.lua")()
-local ConfigManagerFactory = import("Peanut/ConfigManager.lua")
+local CustomUI = import("UI/CustomUI.lua")()
+local ConfigManagerFactory = import("ConfigManager.lua")
 
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
