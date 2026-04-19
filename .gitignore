@@ -1,0 +1,5 @@
+# Created locally by the script via executor writefile (never commit these)
+PeanutData/
+# Legacy paths from older versions
+Peanut/users/
+Peanut/configs/
