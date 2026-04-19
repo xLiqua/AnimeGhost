@@ -1,4 +1,4 @@
-local BASE = "https://raw.githubusercontent.com/xLiqua/Anime-Ghosts/main/"
+local BASE = "https://raw.githubusercontent.com/xLiqua/AnimeGhost/refs/heads/main/"
 
 local function import(path)
     return loadstring(game:HttpGet(BASE .. path))()
